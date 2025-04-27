@@ -30,12 +30,10 @@ WITH banana AS (
 SELECT customer_name,
 top_month,
 total_amount,
-ROW_NUMBER () OVER (
-    PARTITION BY customer_name
-    ORDER BY total_amount DESC
-) AS row_number
+ROW_NUMBER () OVER (PARTITION BY customer_nameORDER BY total_amount DESC) AS row_number
 FROM apple
 )
+
 SELECT customer_name,
 top_month,
 total_amount
