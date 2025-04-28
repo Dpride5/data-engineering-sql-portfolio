@@ -26,7 +26,7 @@ INNER JOIN orders as b ON b.customer_id = a.customer_id
 INNER JOIN payments as c ON c.order_id = b.order_id
 GROUP BY a.customer_name, DATEFORMAT(order_date, 'YYYY-MM')
 ),
-WITH apple_ranked AS (
+apple_ranked AS (
 SELECT customer_name,
 top_month,
 total_amount,

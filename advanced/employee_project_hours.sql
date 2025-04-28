@@ -47,9 +47,8 @@ SELECT
 FROM summary_ranked
 WHERE rank = 1      -- keeps all projects tied in hours for each employee
 ORDER BY employee_name ASC
---Not sure how to keep any that are tied
 
--- Key Takeaways
+-- **Key Takeaways**
 -- When chaining multiple CTEs you only need 1 WITH keyword
 -- You want each employee's best project so partition by employee_id or employee_name (Not project_name (error fix))
 -- Use RANK() instead of ROW_NUMBER() as ROW_NUMBER() only keeps one row. This keeps tied projects included in the output
