@@ -48,3 +48,23 @@ _Repository: data-engineering-sql-portfolio_
 | advanced | `employee_project_hours.sql` | Multi-table JOIN, CTE chain, `RANK()` window function, tie handling | Remember to partition on Primary Keys for best results; learned to use `RANK()` + outer filter to keep ties. |
 
 _“Mastery is built through deliberate practice, not shortcuts.”_
+
+## 2025-05-13
+- Interview-sprint Day 1:
+- Flash-drill: top-3 customers / running total / left-anti join
+- Drafted 3 STAR stories; practiced aloud
+- Window-function "cheat sheet" creation and when to use window functions
+
+## 2025-05-15
+- Re-wrote SQL drills correctly; added running-total DAX in Power BI
+- Answered 8 behavioural prompts on paper; rehearsed 3x
+- Final PBIX polish
+
+## 2025-05-16
+- Interview Day: morning flash recall (ROW_NUMBER, DAX Running Total)
+
+## 2025-05-18
+- Advanced SQL practice
+- Create VIEW vw_daily_hours
+- CREATE PROCEDURE usp_top_customers(days, topN) (parameterised)
+- window-function CTE with SUM() OVER + RANK(); corrected syntax after review
