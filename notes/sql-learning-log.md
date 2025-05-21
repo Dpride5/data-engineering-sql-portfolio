@@ -68,3 +68,8 @@ _“Mastery is built through deliberate practice, not shortcuts.”_
 - Create VIEW vw_daily_hours
 - CREATE PROCEDURE usp_top_customers(days, topN) (parameterised)
 - window-function CTE with SUM() OVER + RANK(); corrected syntax after review
+
+## 2025-05-20
+- SQL Medium Question cleared
+- Utilized ROW_NUMBER() and RANK() to solve question
+- Worked with Postgres SQL syntax
